@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import chef from '../../assets/img/b.png'
+import chef from '../../assets/img/logo (2).png'
 
 const Logo: React.FC = () => {
   const onGoHome = () => {
@@ -9,7 +9,7 @@ const Logo: React.FC = () => {
   }
   return (
     <StyledLogo to='/#' >
-      <img src={chef} onClick={onGoHome} width="150" alt='logo' style={{ marginTop: 0 }} />
+      <img src={chef} onClick={onGoHome} width="250" alt='logo' style={{ marginTop: 0 }} />
     </StyledLogo>
   )
 }

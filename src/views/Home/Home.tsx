@@ -100,11 +100,10 @@ const Home: React.FC = () => {
       <MobileMenu onDismiss={handleDismissMobileMenu} visible={mobileMenu} />
       <Page>
         <div style={{ display: isDesktopOrLaptop ? "grid" : "block", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 2 }}>
-          <div></div>
           <PageHeader
             icon={null}
             maintitle={null}
-            title="TTN token PUBLIC SALE EVENT"
+            title="TTN Token Exchange"
             subtitle={account}
           />
         </div>

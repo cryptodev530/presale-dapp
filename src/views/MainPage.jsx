@@ -101,7 +101,7 @@ class MainPage extends React.Component {
 											<div className="row align-items-center justify-content-center gutter-vr-30px">
 												<div className="col-lg-8 order-lg-last">
 													<div className="banner-gfx banner-gfx-re-s3 animated" data-animate="fadeInUp" data-delay="1.25">
-														<h1 className="title title-xl-2 title-semibold animated" style={{ textAlign: 'center', width: '100%', position: 'absolute', top: '45%', zIndex: '99', color: '#e29f3a' }} data-animate="fadeInUp" data-delay="1.35">DAPP</h1>
+														{/* <h1 className="title title-xl-2 title-semibold animated" style={{ textAlign: 'center', width: '100%', position: 'absolute', top: '45%', zIndex: '99', color: '#e29f3a' }} data-animate="fadeInUp" data-delay="1.35">DAPP</h1> */}
 														<img src="/assets/images/dark/gfx-d-dark.png" alt="header"/>
 														<img className="banner-gfx-icon banner-gfx-icon-1" src="/assets/images/icons/icon-custom.png" alt=""/>
 														<img className="banner-gfx-icon banner-gfx-icon-2" src="/assets/images/icons/icon-bitcoin.png" alt=""/>
